@@ -1,0 +1,428 @@
+@font-face
+{
+    font-family: VarelaRound-Regular;
+    src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+body
+{
+    font-family: VarelaRound-Regular;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.container
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .leftNavBar
+{
+    display: flex;
+    float:left;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 20vw;
+    border-radius: 0 0 0 0;
+    background-color: rgb(0, 187, 255);
+}
+
+.container .leftNavBar .ProfilePic
+{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 0;
+    margin-top: 10%;
+    background-image: url(../images/profilePic.jpg);
+    background-position-y: -1.5vw;
+    background-size: 12vw;
+    background-repeat: no-repeat;
+}
+
+.container .leftNavBar .ProfilePic img
+{
+    /* height: 10vw; */
+    /* border-radius: 50%; */
+
+    /* width: 7.5vw; */
+    
+}
+
+/* .ProfilePic
+{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    padding: 0;
+    
+}
+
+.ProfilePic img
+{
+    width: 7.5vw;
+    margin: 1vw;
+    
+} */
+
+
+
+.container .leftNavBar .tabsSection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 0;
+    padding: 0;
+    /* background-color: crimson; */
+}
+
+.container .leftNavBar .tabsSection .tab
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin: 1.1vw;
+    padding: 0.5vw;
+    transition: all 0.5s;
+    border-radius: 50px;
+}
+
+#active
+{
+    background-color: white;
+}
+
+.container .leftNavBar .tabsSection .tab .tabsContent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .leftNavBar .tabsSection .tab .tabsContent h2
+{
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+}
+
+.container .leftNavBar .tabsSection .tab .tabsContent i
+{
+    margin: 0;
+    margin-right: 0.5vw;
+    padding: 0;
+    display: block;
+}
+
+.container .leftNavBar .SocialMediaSection
+{
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    width: 15vw;
+    height: 3.5vw;
+    margin: 0;
+    margin-bottom: 1vw;
+    /* padding: 2vw; */
+}
+
+.container .leftNavBar .SocialMediaSection a
+{
+    color: black;
+    margin: 0;
+    margin-right: 8%;
+    margin-left: 8%;
+    transition: all 1s;
+
+}
+
+.container .leftNavBar .SocialMediaSection a:hover
+{
+    color: rgb(0, 187, 255);;
+    cursor: pointer;
+}
+
+.container .leftNavBar .tabsSection .tab:hover
+{
+    background-color: white;
+    cursor: pointer;
+}
+
+.webSections
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.webSections .section
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.webSections .section .sectionData
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.webSections .section .sectionData h1
+{
+    word-wrap: break-word;
+    width: 50vw;
+    font-size: 5vw;
+    text-align: center;
+    /* font-size: 10vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+
+.webSections .section .sectionData h1 .underline
+{
+    width: 35vw;
+    height: 0.7vw;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 187, 255);
+}
+
+.webSections .section .sectionData .button
+{
+    border-radius: 50px;
+    height: 6vw;
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 187, 255);
+    transition: all 0.5s;
+}
+.webSections .section .sectionData .button i
+{
+    transition: all 0.5s;
+}
+
+.webSections .section .sectionData .button:hover
+{
+    background-color: transparent;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.webSections .section .sectionData .button:hover i
+{
+    background-color: transparent;
+    color: rgb(0, 187, 255);
+    z-index: 2;
+}
+
+.webSections .section .sectionData .aboutMeText
+{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.webSections .section .sectionData .aboutMeText .aboutMeTextText
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.educationContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 2vw;
+    padding: 0;
+    
+}
+
+.educationContainer .education
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    /* border: 10px; */
+    /* border-style:dashed; */
+    /* border-color: black; */
+    /* background-color: red; */
+    margin: 0.1vw;
+}
+
+.educationContainer .education .imageEducation
+{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.educationContainer .education .imageEducation img
+{
+    height: 5vw;
+    margin: 0;
+    padding: 0;
+}
+
+.educationContainer .education .textEducation
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.educationContainer .education .textEducation .schoolName
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.educationContainer .education .textEducation .schoolInfo
+{
+    text-align: center;
+    font-size: 1vw;
+}
+
+.jobsContainer
+{
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobsContainer .job
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.25vw;
+    border-radius: 25px;
+    border-style: solid;
+    margin: 0.5vw;
+    margin-top: 1.2vw;
+    /* background-color: red; */
+}
+
+.jobsContainer .job img
+{
+    height: 5vw;
+    margin: 0.25vw 2vw 0.25vw 2vw;
+}
+
+.jobsContainer .job .jobDescription
+{
+    margin-right: 0.5vw;
+}
+
+.jobsContainer .job h3
+{
+    margin-bottom: 1vw;
+    padding: 0;
+}
+
+.jobsContainer .job p
+{
+    margin: 0.5vw 0vw 0.5vw 0vw;
+    padding: 0;
+    font-weight: bold;    
+}
+
+.aboutContact
+{
+    height: auto;
+    width: 80%;
+    word-wrap: break-word;
+    margin: 1.5vw;
+    padding: 0;
+}
+
+.aboutContact p
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.OptionsBar
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    /* background-color: red; */
+}
+
+.OptionsBar .option
+{
+    border-radius: 25px;
+    background-color: rgb(0, 187, 255);
+    padding: 1vw;
+    margin: 1vw;
+}
