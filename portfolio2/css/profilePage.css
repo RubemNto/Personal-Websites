@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Roboto',sons-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+}
+
+body
+{
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2
+{
+    font-weight: bold;
+}
+.ImageContainer
+{
+    background-color: #feff9c;
+    height: 15vw;
+    width: 15vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 2vh 0;
+}
+.face
+{
+    margin: 5vh;
+}
+
+.workContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+.work
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 1vw;
+    padding: 0;
+    width: 10vw;
+    height: 10vw;
+    text-decoration: none;
+    color: black;
+    background-color: #feff9c;
+    /* box-shadow: 1vh 1.5vh  black; */
+}
+
+.work .workImage
+{
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+}
+
+.work .title
+{
+    /* margin: 2vw; */
+    padding: 0;
+}
+
+.SocialMediaContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #feff9c;
+}
+.socialMedia
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vw;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
