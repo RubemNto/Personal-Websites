@@ -8,10 +8,10 @@ This is a repository that is made as a portfolio of web development websites. Bu
 
 | Mobile/1  | 
 | ------------- |
-| <img src="Mobile/1/WebPageExample.jpg"> |
+| <img src="Mobile/1/WebPageExample.JPG"> |
 
 **Web Focused**
 
 | portfolio1| portfolio2| 
 | ------------- | ------------- |
-| <img src="portfolio1/WebPageExample.jpg"> | <img src="portfolio2/WebPageExample.jpg"> |
+| <img src="portfolio1/WebPageExample.JPG"> | <img src="portfolio2/WebPageExample.JPG"> |
