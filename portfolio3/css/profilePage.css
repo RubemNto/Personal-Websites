@@ -6,9 +6,239 @@
 body
 {
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/dark_spots_texture_background_50355_2048x1152.jpg);
+    background-repeat: no-repeat;
+    /* background-position-x: -150vw; */
+    background-position: center;
+    background-size: initial;
+    width: 100vw;
+    height: 100vh;
 }
 
 .TabContainer
 {
-      
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+.tabs
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: red; */
+    /* position: absolute; */
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+.tab
+{
+    margin: 0 2vw 0 2vw;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 4vh 4vh 0 0;
+    width: 8vw;
+}
+#tabImage
+{
+    margin: 0.5vw;
+    padding: 0.5vw;
+    font-size: 4vw;
+}
+.TabName
+{
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+.footer
+{
+    width: 100vw;
+    height: 2.5vw;
+    background-color: yellow;
+}
+
+.Data
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ParagraphContainer
+{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+.Paragraph
+{
+    text-align: center;
+    color: yellow;
+    font-size: 2.5vh;
+}
+.ImageContainer
+{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+}
+.Image
+{
+    /* background-image: url("https://cdn.dribbble.com/users/3807961/screenshots/13899584/media/e14f2932367e336ecd6828d7969c8927.png?compress=1&resize=400x300"); */
+    background-image: url(../images/e14f2932367e336ecd6828d7969c8927-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    border-style: dotted;
+    box-shadow: -2vw 2vw 5vw black;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+}
+
+.Contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TitleContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Title
+{
+    font-size: 10vh;
+    color: yellow;
+    text-shadow: -1vh 1vh 1vh black;
+}
+.SubTitle
+{
+    font-size: 5vh;
+    color: yellow;
+    text-shadow: -0.5vh 0.5vh 0.5vh black;
+}
+.ContactContainer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    margin: 4.5vw 0 0 0;
+    background-color: yellow;
+    box-shadow: -0.5vw 0.5vw 0.5vw black;
+}
+
+.ContactLine
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: inherit;
+    margin: 1vw;
+}
+
+.ContactIcon
+{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.ContactData
+{
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+#contactLogo
+{
+    font-size: 7vw;
+}
+
+.Projects
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectsTable
+{
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 5vw; */
+    width: 50vw;
+}
+
+.ProjectsLine
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    margin: 1vw;
+    border-radius: 5vw;
+
+}
+
+.Project
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.ProjectImage
+{
+    height: 5vw;
+    margin: 1vw;
+    width: 10vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectImage img
+{
+    height: inherit;
+}
+
+.ProjectWorkTitle
+{
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
 }
